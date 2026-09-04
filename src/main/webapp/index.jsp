@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -975,5 +975,4 @@
         const product = PRODUCTS.find(p => p.id === id);
         if (!product) return;
         cartCount++;
-        cartCountEl.textContent = cartCount;
-        showToast(`🛒 ${product.title} added to
+        cartCountEl.textContent = cart
