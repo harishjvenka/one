@@ -976,4 +976,4 @@
         if (!product) return;
         cartCount++;
         cartCountEl.textContent = cartCount;
-        const btn = document
+        showToast(`🛒 ${product.title} added to
