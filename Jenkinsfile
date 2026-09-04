@@ -1,5 +1,5 @@
 @Library('devops-shared-library') _
-pipeline {
+pipeline { 
     agent any
     tools {
         maven 'mymaven'
